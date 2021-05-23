@@ -1,0 +1,69 @@
+cafe-bodega% cd 'Downloads/COMP307 Assignment 3/'
+cafe-bodega% python a3Part2.py spamLabelled.dat spamUnlabelled.dat
+                               Not Spam      Spam
+P(Class)                       0.740196  0.259804
+P(Feature 0 = true | Class)    0.357616  0.660377
+P(Feature 0 = false | Class)   0.642384  0.339623
+P(Feature 1 = true | Class)    0.576159  0.584906
+P(Feature 1 = false | Class)   0.423841  0.415094
+P(Feature 2 = true | Class)    0.344371  0.452830
+P(Feature 2 = false | Class)   0.655629  0.547170
+P(Feature 3 = true | Class)    0.397351  0.603774
+P(Feature 3 = false | Class)   0.602649  0.396226
+P(Feature 4 = true | Class)    0.337748  0.490566
+P(Feature 4 = false | Class)   0.662252  0.509434
+P(Feature 5 = true | Class)    0.470199  0.358491
+P(Feature 5 = false | Class)   0.529801  0.641509
+P(Feature 6 = true | Class)    0.503311  0.773585
+P(Feature 6 = false | Class)   0.496689  0.226415
+P(Feature 7 = true | Class)    0.350993  0.754717
+P(Feature 7 = false | Class)   0.649007  0.245283
+P(Feature 8 = true | Class)    0.245033  0.339623
+P(Feature 8 = false | Class)   0.754967  0.660377
+P(Feature 9 = true | Class)    0.291391  0.660377
+P(Feature 9 = false | Class)   0.708609  0.339623
+P(Feature 10 = true | Class)   0.582781  0.660377
+P(Feature 10 = false | Class)  0.417219  0.339623
+P(Feature 11 = true | Class)   0.337748  0.773585
+P(Feature 11 = false | Class)  0.662252  0.226415
+Instance 0
+P(C=1, F) = 0.00000366
+P(C=0, F) = 0.00045599
+The predicted class for this label is NOT Spam (Class 0)
+Instance 1
+P(C=1, F) = 0.0000579
+P(C=0, F) = 0.00004182
+The predicted class for this label is Spam (Class 1)
+Instance 2
+P(C=1, F) = 0.00018771
+P(C=0, F) = 0.00012845
+The predicted class for this label is Spam (Class 1)
+Instance 3
+P(C=1, F) = 0.00000615
+P(C=0, F) = 0.00059518
+The predicted class for this label is NOT Spam (Class 0)
+Instance 4
+P(C=1, F) = 0.00006199
+P(C=0, F) = 0.00009228
+The predicted class for this label is NOT Spam (Class 0)
+Instance 5
+P(C=1, F) = 0.0000597
+P(C=0, F) = 0.00004626
+The predicted class for this label is Spam (Class 1)
+Instance 6
+P(C=1, F) = 0.00000412
+P(C=0, F) = 0.00032587
+The predicted class for this label is NOT Spam (Class 0)
+Instance 7
+P(C=1, F) = 0.00006519
+P(C=0, F) = 0.00038986
+The predicted class for this label is NOT Spam (Class 0)
+Instance 8
+P(C=1, F) = 0.00018771
+P(C=0, F) = 0.00003781
+The predicted class for this label is Spam (Class 1)
+Instance 9
+P(C=1, F) = 0.00002277
+P(C=0, F) = 0.00067543
+The predicted class for this label is NOT Spam (Class 0)
+cafe-bodega% 
